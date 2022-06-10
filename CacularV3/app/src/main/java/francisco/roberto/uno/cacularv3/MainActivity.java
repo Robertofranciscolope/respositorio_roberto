@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public static final String LOGARITMO     = "Logaritimo";
     public static final String POTENCIACAO   = "Potenciação";
     public static final String POTENCIA_10   = "Potencia de 10";
+    public static final String LIMPAREDITTEXT = "limparedttex";
     private int ZERO                         = 0;
     private int BASE_DEZ                     = 10;
     private Spinner spiOpcoes;
@@ -162,6 +163,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
 
+
+
         //Toast.makeText(MainActivity.this, adapterView.getItemAtPosition(i).toString(), Toast.LENGTH_SHORT).show();
 
         if(adapterView.getItemAtPosition(i).toString().equals(DIVIDIR)){
@@ -292,6 +295,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         } else {
             return false;
         }
+    private boolean nao
+
     }
 
 
@@ -328,5 +333,17 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         return "o resultado da potenciação é " + res;
     }
+
+    private void limparedittext(boolean block){
+        if (block){
+            edtNumero1.setFocusable(false);
+            edtNumero2.setEnabled(true);
+        }else{
+            edtNumero2.setFocusable(false);
+            edtNumero2.setEnabled(true);
+        }
+    }
+
+
 
 }
