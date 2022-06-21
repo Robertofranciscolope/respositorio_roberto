@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtLado1" type="id" />
+    <item name="edtLado2" type="id" />
+    <item name="edtLado3" type="id" />
+    <item name="tvAreaTriangulo" type="id" />
+    <item name="imgbLimparTriangulo" type="id" />
+    <item name="imgbCalcularTriangulo" type="id" />
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Classes Abstratas e Interfaces</string>
+    <string name="tv_titulo">Calcular área de formas geométricas</string>
+
+    //Opções do Spinner da MainActivity
+    <string-array name="formas_geometricas">
+        <item> </item>
+        <item>Circunferência</item>
+        <item>Retângulo</item>
+        <item>Triângulo</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_mensagem">Selecione uma forma geométrica</string>
+    <string name="tv_retangulo">Informe a base e a altura do retângulo</string>
+    <string name="tv_formas">Formas:</string>
+    <string name="tv_triangulo">Informe os lados do triângulo</string>
+    <string name="tv_valor_area_triangulo">Área do triângulo:</string>
+</resources>
