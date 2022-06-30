@@ -14,6 +14,8 @@ public class Triangulo extends Forma {
     // impl. método abstrato area() usando fórmula de Herão
     @Override
     public double area() {
+        double result;
+
         double sp = (getMedida(0) + getMedida(1) + getMedida(2)) / 2;
         double aux = sp * (sp - getMedida(0)) * (sp - getMedida(1))
                 * (sp - getMedida(2));
