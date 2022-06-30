@@ -1,15 +1,13 @@
-package martins.eduardo.uno.tddtesteunitario;
+package francisco.roberto.uno.tddtesteunitario;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import static java.lang.Math.PI;
 
-import org.junit.Assert;
+import static org.junit.Assert.*;
 import org.junit.Test;
 import java.lang.Math;
 
-import martins.eduardo.uno.tddtesteunitario.forma.Circunferencia;
+import francisco.roberto.uno.tddtesteunitario.forma.Circunferencia;
 
 
 public class CincunferenciaTest {

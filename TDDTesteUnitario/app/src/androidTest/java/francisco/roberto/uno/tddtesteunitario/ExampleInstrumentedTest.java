@@ -1,4 +1,4 @@
-package martins.eduardo.uno.tddtesteunitario;
+package francisco.roberto.uno.tddtesteunitario;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("martins.eduardo.uno.tddtesteunitario", appContext.getPackageName());
+        assertEquals("francisco.roberto.uno.tddtesteunitario", appContext.getPackageName());
     }
 }

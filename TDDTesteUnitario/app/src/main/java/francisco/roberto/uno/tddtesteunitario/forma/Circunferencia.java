@@ -1,6 +1,6 @@
-package martins.roberto.uno.tddtesteunitario.forma;
+package francisco.roberto.uno.tddtesteunitario.forma;
 
-public class Circunferencia extends martins.roberto.uno.tddtesteunitario.forma. {
+public class Circunferencia extends Forma{
     private static final int TAMANHO_ARRAY_INFO_CALCULO_AREA = 1;
     public static final int POSICAO_ZERO                     = 0;
     public static final int EXPOENTE_2                       = 2;
