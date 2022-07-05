@@ -23,4 +23,7 @@ public abstract class Forma {
     }
 
     public abstract double area();
+
+    public static void getMedidas(int i) {
+    }
 }
